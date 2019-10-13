@@ -46,10 +46,10 @@
 		</plugins>
 	</build>
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-92-48-snapshots</name>
-        <url>http://ec2-54-84-32-10.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-92-48-releases</name>
+        <url>http://ec2-54-84-32-10.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
 </project>
